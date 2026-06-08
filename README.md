@@ -208,7 +208,7 @@ For questions or improvements, please open an issue or submit a pull request.
 
 ---
 
-**Last Updated**: 2024  
+**Last Updated**: 2026  
 **Status**: ✅ Production Ready  
 **Accuracy**: 87.68%  
 **Dataset Size**: 32,456 tweets
