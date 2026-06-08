@@ -1,0 +1,35 @@
+OPTIMIZED SENTIMENT ANALYSIS PIPELINE v2.0
+================================================================================
+
+
+BASELINE vs OPTIMIZED:
+
+Metric          | BASELINE   | OPTIMIZED  | IMPROVEMENT
+────────────────┼────────────┼────────────┼─────────────
+Accuracy        | 66.70%     |  87.68%     | +20.98%
+Precision (W)   | 67.91%     |  87.70%     | +19.79%
+Recall (W)      | 66.70%     |  87.68%     | +20.98%
+F1-Score (W)    | 64.83%     |  87.41%     | +22.58%
+
+OPTIMIZATIONS IMPLEMENTED:
+Ensemble voting (Naive Bayes 40% + Random Forest 60%)
+Advanced TF-IDF (5,000 features with better parameters)
+Sentiment score features (4 derived features)
+Class weight balancing for imbalanced classes
+Hyperparameter optimization for both models
+Stratified train-test split
+
+KEY IMPROVEMENTS:
+Better handling of minority (Neutral) class
+Reduced overfitting through ensemble
+Improved feature representation
+More robust predictions
+Better generalization to new data
+
+FILES GENERATED:
+01_Model_Comparison.png
+02_Optimized_Confusion_Matrix.png
+03_Optimized_Per_Class.png
+02_Optimized_Metrics.csv
+03_Optimized_Per_Class.csv
+04_Confusion_Matrix.csv
